@@ -1446,50 +1446,81 @@
 </div>
 </div>
 <div class="card">
-<div class="section-title">① 胸部誘導の位置関係を図で確認</div>
-<svg aria-label="胸部誘導の簡易図" viewbox="0 0 700 500">
-<defs>
-<marker id="arr" markerheight="10" markerwidth="10" orient="auto" refx="8" refy="3">
-<path d="M0,0 L0,6 L9,3 z" fill="#111827"></path>
-</marker>
-</defs>
-<rect fill="#fbfbfb" height="390" rx="110" stroke="#d1d5db" stroke-width="2" width="330" x="185" y="35"></rect>
-<path d="M350 175 C320 130,250 145,255 205 C260 270,350 330,350 330 C350 330,440 270,445 205 C450 145,380 130,350 175Z" fill="#f3f4f6" stroke="#374151" stroke-width="2"></path>
-<text font-size="22" font-weight="800" text-anchor="middle" x="350" y="235">心臓</text>
-<circle data-vi="0" class="lead" cx="290" cy="190" data-info="V1：右胸骨縁第4肋間。中隔寄りをみる。" fill="#fee2e2" r="19" stroke="#ef4444" stroke-width="2"></circle>
-<text class="lead-label" text-anchor="middle" x="290" y="196">V1</text>
-<circle data-vi="1" class="lead" cx="325" cy="190" data-info="V2：左胸骨縁第4肋間。中隔寄りをみる。" fill="#fef9c3" r="19" stroke="#eab308" stroke-width="2"></circle>
-<text class="lead-label" text-anchor="middle" x="325" y="196">V2</text>
-<circle data-vi="2" class="lead" cx="365" cy="210" data-info="V3：V2とV4の中間。前壁をみる。" fill="#dcfce7" r="19" stroke="#22c55e" stroke-width="2"></circle>
-<text class="lead-label" text-anchor="middle" x="365" y="216">V3</text>
-<circle data-vi="3" class="lead" cx="405" cy="225" data-info="V4：左鎖骨中線上第5肋間。前壁をみる。" fill="#dbeafe" r="19" stroke="#3b82f6" stroke-width="2"></circle>
-<text class="lead-label" text-anchor="middle" x="405" y="231">V4</text>
-<circle data-vi="4" class="lead" cx="445" cy="225" data-info="V5：左前腋窩線上。側壁をみる。" fill="#ffedd5" r="19" stroke="#f97316" stroke-width="2"></circle>
-<text class="lead-label" text-anchor="middle" x="445" y="231">V5</text>
-<circle data-vi="5" class="lead" cx="485" cy="225" data-info="V6：左中腋窩線上。側壁をみる。" fill="#ede9fe" r="19" stroke="#8b5cf6" stroke-width="2"></circle>
-<text class="lead-label" text-anchor="middle" x="485" y="231">V6</text>
-<line marker-end="url(#arr)" stroke="#111827" stroke-width="2" x1="145" x2="250" y1="120" y2="190"></line>
-<text class="lead-label" x="78" y="110">I / aVL</text>
-<text class="small" x="55" y="130">左横から見る → 側壁</text>
-<line marker-end="url(#arr)" stroke="#111827" stroke-width="2" x1="350" x2="350" y1="465" y2="340"></line>
-<text class="lead-label" x="285" y="485">II / III / aVF</text>
-<text class="small" x="435" y="470">下から見る → 下壁</text>
-<path d="M275 165 C310 140,390 145,420 175" fill="none" stroke="#111827" stroke-dasharray="4 4" stroke-width="2"></path>
-<text class="small" x="330" y="135">V1〜V4：前壁〜中隔</text>
-<path d="M430 190 C475 185,510 205,515 245" fill="none" stroke="#111827" stroke-dasharray="4 4" stroke-width="2"></path>
-<text class="small" x="505" y="175">V5〜V6：側壁</text>
+<div class="section-title">① 胸部誘導（V1〜V6）：貼る位置と見る部位</div>
+<div class="tip">胸部誘導は、<b>肋間・胸骨縁・鎖骨中線・前腋窩線・中腋窩線</b>を目安に貼ります。</div>
+<svg aria-label="胸部誘導の貼付位置詳細" viewbox="0 0 700 620">
+<circle cx="350" cy="70" fill="#fbfbfb" r="34" stroke="#d1d5db" stroke-width="2"></circle>
+<rect fill="#fbfbfb" height="380" rx="28" stroke="#d1d5db" stroke-width="2" width="200" x="250" y="110"></rect>
+<line stroke="#cbd5e1" stroke-width="4" x1="350" x2="350" y1="120" y2="470"></line>
+<text fill="#4b5563" font-size="13" x="360" y="140">胸骨</text>
+<line stroke="#e5e7eb" stroke-width="1" x1="260" x2="440" y1="180" y2="180"></line>
+<line stroke="#e5e7eb" stroke-width="1" x1="260" x2="440" y1="220" y2="220"></line>
+<line stroke="#e5e7eb" stroke-width="1" x1="260" x2="440" y1="260" y2="260"></line>
+<line stroke="#e5e7eb" stroke-width="1" x1="260" x2="440" y1="300" y2="300"></line>
+<text fill="#6b7280" font-size="12" x="210" y="183">第2肋間</text>
+<text fill="#6b7280" font-size="12" x="210" y="223">第3肋間</text>
+<text fill="#6b7280" font-size="12" x="210" y="263">第4肋間</text>
+<text fill="#6b7280" font-size="12" x="210" y="303">第5肋間</text>
+<line stroke="#d1d5db" stroke-dasharray="4 4" stroke-width="2" x1="395" x2="395" y1="140" y2="470"></line>
+<line stroke="#d1d5db" stroke-dasharray="4 4" stroke-width="2" x1="455" x2="455" y1="140" y2="470"></line>
+<line stroke="#d1d5db" stroke-dasharray="4 4" stroke-width="2" x1="515" x2="515" y1="140" y2="470"></line>
+<text fill="#4b5563" font-size="12" x="382" y="500">鎖骨中線</text>
+<text fill="#4b5563" font-size="12" x="438" y="500">前腋窩線</text>
+<text fill="#4b5563" font-size="12" x="500" y="500">中腋窩線</text>
+<circle data-vi="0" cx="333" cy="260" fill="#fee2e2" r="18" stroke="#ef4444" stroke-width="2"></circle><text font-size="18" font-weight="800" text-anchor="middle" x="333" y="266">V1</text>
+<text font-size="14" x="75" y="255">V1：右胸骨縁 第4肋間</text>
+<line stroke="#9ca3af" stroke-dasharray="5 4" x1="160" x2="313" y1="250" y2="258"></line>
+<circle data-vi="1" cx="367" cy="260" fill="#fef9c3" r="18" stroke="#eab308" stroke-width="2"></circle><text font-size="18" font-weight="800" text-anchor="middle" x="367" y="266">V2</text>
+<text font-size="14" x="75" y="285">V2：左胸骨縁 第4肋間</text>
+<line stroke="#9ca3af" stroke-dasharray="5 4" x1="160" x2="347" y1="280" y2="262"></line>
+<circle data-vi="2" cx="380" cy="283" fill="#dcfce7" r="18" stroke="#22c55e" stroke-width="2"></circle><text font-size="18" font-weight="800" text-anchor="middle" x="380" y="289">V3</text>
+<text font-size="14" x="75" y="315">V3：V2 と V4 の中間</text>
+<line stroke="#9ca3af" stroke-dasharray="5 4" x1="160" x2="362" y1="310" y2="285"></line>
+<circle data-vi="3" cx="395" cy="300" fill="#dbeafe" r="18" stroke="#3b82f6" stroke-width="2"></circle><text font-size="18" font-weight="800" text-anchor="middle" x="395" y="306">V4</text>
+<text font-size="14" x="75" y="345">V4：左鎖骨中線 第5肋間</text>
+<line stroke="#9ca3af" stroke-dasharray="5 4" x1="160" x2="375" y1="340" y2="302"></line>
+<circle data-vi="4" cx="455" cy="300" fill="#ffedd5" r="18" stroke="#f97316" stroke-width="2"></circle><text font-size="18" font-weight="800" text-anchor="middle" x="455" y="306">V5</text>
+<text font-size="14" x="75" y="375">V5：左前腋窩線で V4 と同じ高さ</text>
+<line stroke="#9ca3af" stroke-dasharray="5 4" x1="160" x2="437" y1="370" y2="302"></line>
+<circle data-vi="5" cx="515" cy="300" fill="#ede9fe" r="18" stroke="#8b5cf6" stroke-width="2"></circle><text font-size="18" font-weight="800" text-anchor="middle" x="515" y="306">V6</text>
+<text font-size="14" x="75" y="405">V6：左中腋窩線で V4 と同じ高さ</text>
+<line stroke="#9ca3af" stroke-dasharray="5 4" x1="160" x2="497" y1="400" y2="302"></line>
 </svg>
-<div class="feedback" id="leadInfo">図の V1〜V6 をタップすると説明が出ます。</div>
+<table class="lb-table">
+<tr><th>誘導</th><th>貼る位置</th><th>主に見る部位</th></tr>
+<tr><td><b>V1</b></td><td>右胸骨縁 第4肋間</td><td>中隔</td></tr>
+<tr><td><b>V2</b></td><td>左胸骨縁 第4肋間</td><td>中隔</td></tr>
+<tr><td><b>V3</b></td><td>V2 と V4 の中間</td><td>前壁</td></tr>
+<tr><td><b>V4</b></td><td>左鎖骨中線 第5肋間</td><td>前壁</td></tr>
+<tr><td><b>V5</b></td><td>左前腋窩線（V4 と同じ高さ）</td><td>側壁</td></tr>
+<tr><td><b>V6</b></td><td>左中腋窩線（V4 と同じ高さ）</td><td>側壁</td></tr>
+</table>
 <div class="legend">
-<div><b>下壁</b>：II・III・aVF</div>
+<div><b>四肢誘導が見る部位も合わせて：</b></div>
+<div><b>下壁</b>：II・III・aVF（下から見る）</div>
 <div><b>前壁〜中隔</b>：V1〜V4</div>
-<div><b>側壁</b>：I・aVL・V5・V6</div>
+<div><b>側壁</b>：I・aVL（左横から見る）・V5・V6</div>
 </div>
+<div class="feedback">
+<b>順番のコツ：</b><br/>
+        ① V1 と V2 を第4肋間に置く → ② V4 を第5肋間・鎖骨中線に置く → ③ V3 をその間に置く → ④ V5, V6 を V4 と同じ高さに横へ置く
+      </div>
+<div class="explain-box">
+<b>胸部誘導の色について</b><br/>
+        日本の心電計の多くは <b>IEC</b> の色です。色は位置を覚える補助で、診断上の意味はありません。四肢電極の表示と連動して切り替わります。
+        <div class="standard-toggle"><button data-std="IEC" onclick="setColorStandard('IEC')">IEC表示（日本・欧州）</button><button data-std="AHA" onclick="setColorStandard('AHA')">AHA表示（米国）</button></div>
+<div class="lead-color-row" id="chestColorLegend"></div>
+<div style="margin-top:8px;color:#6b7280">
+          AHA例：V1赤 / V2黄 / V3緑 / V4青 / V5橙 / V6紫<br/>
+          IEC例：C1赤 / C2黄 / C3緑 / C4茶 / C5黒 / C6紫（V1〜V6 から「せ・き・ぐ・ち・く・ん」）
+        </div>
 <details class="refs">
 <summary>根拠・参考文献</summary>
 <ul>
 <li><a href="https://www.ncbi.nlm.nih.gov/books/NBK594493/" rel="noopener" target="_blank">NCBI Bookshelf: Interpret Basic ECG</a> — II/III/aVF＝下壁、I/aVL/V5/V6＝側壁、V1/V2＝中隔、V3/V4＝前壁。</li>
 <li><a href="https://www.ncbi.nlm.nih.gov/books/NBK543584/table/ch2.Tab1/" rel="noopener" target="_blank">NCBI Bookshelf: Localizing of myocardial infarction on ECG</a> — 心筋梗塞部位と誘導の対応。</li>
+<li><a href="https://www.ncbi.nlm.nih.gov/books/NBK354/" rel="noopener" target="_blank">NCBI Bookshelf: Electrocardiography (Clinical Methods)</a> — 四肢誘導・augmented leads・胸部誘導の原理と配置。</li>
+<li><a href="https://www.ncbi.nlm.nih.gov/books/NBK549803/" rel="noopener" target="_blank">StatPearls: Electrocardiogram</a> — 12誘導ECG、四肢電極、V1〜V6の標準配置。</li>
 </ul>
 </details>
 </div><div class="card">
@@ -1601,70 +1632,8 @@
 </ul>
 <div class="source-note">※「右肩・左肩・足元にカメラを置く」は、方向を理解するための学習用の比喩です。</div>
 </details>
-</div><div class="card">
-<div class="section-title">④ V1〜V6 はどこに貼る？（やや厳密版）</div>
-<div class="tip">胸部誘導は、<b>肋間・胸骨縁・鎖骨中線・前腋窩線・中腋窩線</b>を目安に貼ります。</div>
-<svg aria-label="胸部誘導の貼付位置詳細" viewbox="0 0 700 620">
-<circle cx="350" cy="70" fill="#fbfbfb" r="34" stroke="#d1d5db" stroke-width="2"></circle>
-<rect fill="#fbfbfb" height="380" rx="28" stroke="#d1d5db" stroke-width="2" width="200" x="250" y="110"></rect>
-<line stroke="#cbd5e1" stroke-width="4" x1="350" x2="350" y1="120" y2="470"></line>
-<text fill="#4b5563" font-size="13" x="360" y="140">胸骨</text>
-<line stroke="#e5e7eb" stroke-width="1" x1="260" x2="440" y1="180" y2="180"></line>
-<line stroke="#e5e7eb" stroke-width="1" x1="260" x2="440" y1="220" y2="220"></line>
-<line stroke="#e5e7eb" stroke-width="1" x1="260" x2="440" y1="260" y2="260"></line>
-<line stroke="#e5e7eb" stroke-width="1" x1="260" x2="440" y1="300" y2="300"></line>
-<text fill="#6b7280" font-size="12" x="210" y="183">第2肋間</text>
-<text fill="#6b7280" font-size="12" x="210" y="223">第3肋間</text>
-<text fill="#6b7280" font-size="12" x="210" y="263">第4肋間</text>
-<text fill="#6b7280" font-size="12" x="210" y="303">第5肋間</text>
-<line stroke="#d1d5db" stroke-dasharray="4 4" stroke-width="2" x1="395" x2="395" y1="140" y2="470"></line>
-<line stroke="#d1d5db" stroke-dasharray="4 4" stroke-width="2" x1="455" x2="455" y1="140" y2="470"></line>
-<line stroke="#d1d5db" stroke-dasharray="4 4" stroke-width="2" x1="515" x2="515" y1="140" y2="470"></line>
-<text fill="#4b5563" font-size="12" x="382" y="500">鎖骨中線</text>
-<text fill="#4b5563" font-size="12" x="438" y="500">前腋窩線</text>
-<text fill="#4b5563" font-size="12" x="500" y="500">中腋窩線</text>
-<circle data-vi="0" cx="333" cy="260" fill="#fee2e2" r="18" stroke="#ef4444" stroke-width="2"></circle><text font-size="18" font-weight="800" text-anchor="middle" x="333" y="266">V1</text>
-<text font-size="14" x="75" y="255">V1：右胸骨縁 第4肋間</text>
-<line stroke="#9ca3af" stroke-dasharray="5 4" x1="160" x2="313" y1="250" y2="258"></line>
-<circle data-vi="1" cx="367" cy="260" fill="#fef9c3" r="18" stroke="#eab308" stroke-width="2"></circle><text font-size="18" font-weight="800" text-anchor="middle" x="367" y="266">V2</text>
-<text font-size="14" x="75" y="285">V2：左胸骨縁 第4肋間</text>
-<line stroke="#9ca3af" stroke-dasharray="5 4" x1="160" x2="347" y1="280" y2="262"></line>
-<circle data-vi="2" cx="380" cy="283" fill="#dcfce7" r="18" stroke="#22c55e" stroke-width="2"></circle><text font-size="18" font-weight="800" text-anchor="middle" x="380" y="289">V3</text>
-<text font-size="14" x="75" y="315">V3：V2 と V4 の中間</text>
-<line stroke="#9ca3af" stroke-dasharray="5 4" x1="160" x2="362" y1="310" y2="285"></line>
-<circle data-vi="3" cx="395" cy="300" fill="#dbeafe" r="18" stroke="#3b82f6" stroke-width="2"></circle><text font-size="18" font-weight="800" text-anchor="middle" x="395" y="306">V4</text>
-<text font-size="14" x="75" y="345">V4：左鎖骨中線 第5肋間</text>
-<line stroke="#9ca3af" stroke-dasharray="5 4" x1="160" x2="375" y1="340" y2="302"></line>
-<circle data-vi="4" cx="455" cy="300" fill="#ffedd5" r="18" stroke="#f97316" stroke-width="2"></circle><text font-size="18" font-weight="800" text-anchor="middle" x="455" y="306">V5</text>
-<text font-size="14" x="75" y="375">V5：左前腋窩線で V4 と同じ高さ</text>
-<line stroke="#9ca3af" stroke-dasharray="5 4" x1="160" x2="437" y1="370" y2="302"></line>
-<circle data-vi="5" cx="515" cy="300" fill="#ede9fe" r="18" stroke="#8b5cf6" stroke-width="2"></circle><text font-size="18" font-weight="800" text-anchor="middle" x="515" y="306">V6</text>
-<text font-size="14" x="75" y="405">V6：左中腋窩線で V4 と同じ高さ</text>
-<line stroke="#9ca3af" stroke-dasharray="5 4" x1="160" x2="497" y1="400" y2="302"></line>
-</svg>
-<div class="feedback">
-<b>順番のコツ：</b><br/>
-        ① V1 と V2 を第4肋間に置く → ② V4 を第5肋間・鎖骨中線に置く → ③ V3 をその間に置く → ④ V5, V6 を V4 と同じ高さに横へ置く
-      </div>
-<div class="explain-box">
-<b>胸部誘導の色について</b><br/>
-        日本の心電計の多くは <b>IEC</b> の色です。色は位置を覚える補助で、診断上の意味はありません。四肢電極の表示と連動して切り替わります。
-        <div class="standard-toggle"><button data-std="IEC" onclick="setColorStandard('IEC')">IEC表示（日本・欧州）</button><button data-std="AHA" onclick="setColorStandard('AHA')">AHA表示（米国）</button></div>
-<div class="lead-color-row" id="chestColorLegend"></div>
-<div style="margin-top:8px;color:#6b7280">
-          AHA例：V1赤 / V2黄 / V3緑 / V4青 / V5橙 / V6紫<br/>
-          IEC例：C1赤 / C2黄 / C3緑 / C4茶 / C5黒 / C6紫（V1〜V6 から「せ・き・ぐ・ち・く・ん」）
-        </div>
-<details class="refs">
-<summary>根拠・参考文献</summary>
-<ul>
-<li><a href="https://www.ncbi.nlm.nih.gov/books/NBK354/" rel="noopener" target="_blank">NCBI Bookshelf: Electrocardiography (Clinical Methods)</a> — 四肢誘導・augmented leads・胸部誘導の原理と配置。</li>
-<li><a href="https://www.ncbi.nlm.nih.gov/books/NBK549803/" rel="noopener" target="_blank">StatPearls: Electrocardiogram</a> — 12誘導ECG、四肢電極、V1〜V6の標準配置。</li>
-</ul>
-</details>
-</div>
-</div><div class="card">
-<div class="section-title">⑦ アイントーベンの三角形（Lead I / II / III）</div>
+</div></div><div class="card">
+<div class="section-title">④ アイントーベンの三角形（Lead I / II / III）</div>
 <div class="tip">Lead I, II, III は、RA・LA・LL の3点でできる三角形としてイメージすると覚えやすいです。</div>
 <svg aria-label="アイントーベンの三角形" viewbox="0 0 700 520">
 <defs>
@@ -2160,7 +2129,7 @@
 </div>
 </div>
 </div><div class="card">
-<div class="section-title">⑧ ECG風波形で診断する</div>
+<div class="section-title">⑦ ECG風波形で診断する</div>
 <div class="tip" style="margin-bottom:10px">
         本物のECGそのものではなく、学習用に特徴を強調した模式波形です。<b>STEMI / AF / PVC / VT / RBBB / LBBB / Mobitz I — Second-Degree AV Block, Mobitz Type I（2度房室ブロック・Mobitz I） / Mobitz II — Second-Degree AV Block, Mobitz Type II（2度房室ブロック・Mobitz II） / Complete AV Block / Third-Degree AV Block（完全房室ブロック） / SVT / Atrial flutter / VF</b> を練習できます。
       </div>
@@ -2201,7 +2170,7 @@
 </ul>
 </details>
 </div><div class="card wide-card">
-<div class="section-title">⑨ 基本練習</div>
+<div class="section-title">⑧ 基本練習</div>
 <div class="quiz-controls">
 <button class="primary" onclick="setMode('leadToRegion')">誘導 → 部位</button>
 <button onclick="setMode('regionToLead')">部位 → 誘導</button>
@@ -2214,7 +2183,7 @@
 <div class="feedback" id="feedback">選択肢を選んでください。</div>
 <div class="score" id="score">正解 0 / 0</div>
 <hr style="border:none;border-top:1px solid #e5e7eb;margin:18px 0"/>
-<div class="section-title">⑩ まず押さえるセット</div>
+<div class="section-title">⑨ まず押さえるセット</div>
 <div class="tip">
 <div class="tag">II・III・aVF → 下壁</div>
 <div class="tag">V1〜V4 → 前壁〜中隔</div>
@@ -2350,7 +2319,7 @@ function explain(item){
   return "";
 }
 document.querySelectorAll(".lead").forEach(el=>{
-  el.addEventListener("click", ()=>{ document.getElementById("leadInfo").textContent=el.dataset.info; });
+  el.addEventListener("click", ()=>{ const b=document.getElementById("leadInfo"); if(b) b.textContent=el.dataset.info; });
 });
 nextQuestion();
 
