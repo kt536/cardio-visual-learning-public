@@ -392,6 +392,7 @@
 .cv-quiz-answers button{text-align:left;white-space:normal}
 .cv-quiz-feedback{background:#f8fafc;border-radius:12px;padding:12px;min-height:55px;margin-top:12px;line-height:1.6}
 @media(max-width:720px){.cv-grid,.cv-sliders,.cv-quiz-answers{grid-template-columns:1fr}.cv-track{flex-direction:column}.cv-arrow{transform:rotate(90deg)}.main-tab-btn{font-size:13px;padding:10px 6px}}
+.cad-tree{margin:.6rem 0 .4rem;font-size:.92rem}.cad-root{text-align:center;background:#f1f5f9;border:1px solid #cbd5e1;border-radius:10px;padding:8px 10px;max-width:420px;margin:0 auto}.cad-root small,.cad-head small,.cad-leaf small{display:block;color:#64748b;font-weight:400;font-size:.8rem;line-height:1.45}.cad-branches{display:grid;grid-template-columns:1fr 3fr;gap:10px;margin-top:12px;position:relative}.cad-col{border-top:3px solid #94a3b8;padding-top:8px}.cad-col.acs{border-top-color:#ef4444}.cad-head{font-weight:700;margin-bottom:6px}.cad-col.acs .cad-head{color:#b91c1c}.cad-acs3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}.cad-leaf{border-radius:10px;padding:8px 9px;border:1px solid;min-width:0}.cad-leaf.angina{background:#eff6ff;border-color:#93c5fd}.cad-leaf.mi{background:#fef2f2;border-color:#fca5a5}.cad-tag{display:inline-block;font-size:.72rem;border-radius:999px;padding:1px 7px;margin:4px 4px 0 0;background:#fff;border:1px solid #e2e8f0;color:#334155}.cad-legend{margin-top:8px;font-size:.8rem;color:#475569}.cad-sw{display:inline-block;width:12px;height:12px;border-radius:3px;vertical-align:-1px;margin-right:4px;border:1px solid}.cad-sw.angina{background:#eff6ff;border-color:#93c5fd}.cad-sw.mi{background:#fef2f2;border-color:#fca5a5;margin-left:4px}@media (max-width:700px){.cad-branches{grid-template-columns:1fr}.cad-acs3{grid-template-columns:1fr}}
 .als-link{margin:.3rem 0 0;font-size:.92rem}.als-link a{color:#215f9a;font-weight:600;text-decoration:none}.als-link a:hover{text-decoration:underline}
 </style>
 </head>
@@ -618,6 +619,21 @@
 <details><summary>HFrEF の基本の薬（4本柱）</summary><p>① ARNI・ACE 阻害薬・ARB のいずれか　② β 遮断薬　③ MRA（ミネラルコルチコイド受容体拮抗薬）　④ SGLT2 阻害薬</p></details></section>
 <section class="cv-card cv-wide"><h2>② 冠動脈疾患・急性冠症候群 — CAD / ACS</h2>
 <p>冠動脈の動脈硬化で心筋への血流が足りなくなるのが<b>冠動脈疾患（CAD）</b>。プラークが破れて血栓ができ、血流が急に減ったり止まったりするのが<b>急性冠症候群（ACS）</b>です。</p>
+<h3>全体の関係（起こり方 × 心筋が壊れたか）</h3>
+<div class="cad-tree">
+<div class="cad-root"><b>冠動脈疾患（CAD）</b><small>冠動脈の動脈硬化による病気の総称</small></div>
+<div class="cad-branches">
+<div class="cad-col"><div class="cad-head">慢性（ゆっくり）</div>
+<div class="cad-leaf angina"><b>安定狭心症</b><small>プラークで狭いが安定。運動などで負担が増えたときだけ痛み、休むと治まる</small><span class="cad-tag">壊死なし</span></div></div>
+<div class="cad-col acs"><div class="cad-head">急性（急に）＝ 急性冠症候群（ACS）<small>プラークが破れて血栓 → 血流が急に減る・止まる</small></div>
+<div class="cad-acs3">
+<div class="cad-leaf angina"><b>不安定狭心症</b><small>新しく出た・増えてきた・安静時にも起こる胸痛</small><span class="cad-tag">壊死なし</span><span class="cad-tag">トロポニン 上がらない</span></div>
+<div class="cad-leaf mi"><b>NSTEMI</b><small>非 ST 上昇型心筋梗塞</small><span class="cad-tag">壊死あり</span><span class="cad-tag">トロポニン ↑</span><span class="cad-tag">ST 上昇なし</span></div>
+<div class="cad-leaf mi"><b>STEMI</b><small>ST 上昇型心筋梗塞（多くは完全閉塞）</small><span class="cad-tag">壊死あり</span><span class="cad-tag">トロポニン ↑</span><span class="cad-tag">ST 上昇あり</span></div>
+</div></div></div>
+<div class="cad-legend"><span class="cad-sw angina"></span>狭心症＝一時的な血流不足（心筋は壊れていない）　<span class="cad-sw mi"></span>心筋梗塞＝血流が途絶えて心筋が壊死</div>
+</div>
+<p class="cv-muted">ACS は「プラークが破れて詰まりかけている」緊急事態をまとめた呼び名です。狭心症のうち ACS に入るのは<b>不安定狭心症だけ</b>で、心筋梗塞（NSTEMI・STEMI）はどちらも ACS に入ります。</p>
 <h3>ACS の3タイプ（心電図とトロポニンで分ける）</h3>
 <ol class="cv-steps"><li><b>STEMI：</b>ST 上昇あり。冠動脈が完全に詰まっていることが多く、急いで血流を再開させる</li><li><b>NSTEMI：</b>ST 上昇なし、トロポニン上昇あり（心筋が傷ついている）</li><li><b>不安定狭心症：</b>ST 上昇なし、トロポニン上昇なし</li></ol>
 <details><summary>トロポニンの注意点</summary><p>発症から数時間はまだ上がらないことがあるため、時間をおいて繰り返し測ります。心電図が正常でも ACS は否定できません。</p></details>
