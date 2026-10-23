@@ -1495,15 +1495,16 @@
 <div class="section-title">波形の読み方（P・QRS・T）</div>
 <p class="tip">1回の心拍で描かれる波形には名前があり、それぞれ心臓のどこで何が起きているかに対応しています。</p>
 <svg viewBox="0 0 900 330" class="wf-fig" aria-label="心電図の波形の名前"><rect x="104" y="20" width="128" height="230" rx="10" fill="#fecaca" opacity=".75"/><text x="168" y="44" text-anchor="middle" font-size="17" font-weight="800" fill="#1f2937">P 波</text><rect x="232" y="20" width="128" height="230" rx="10" fill="#fed7aa" opacity=".75"/><text x="296" y="44" text-anchor="middle" font-size="17" font-weight="800" fill="#1f2937">PR 部分</text><rect x="360" y="20" width="99" height="230" rx="10" fill="#fef08a" opacity=".75"/><text x="410" y="44" text-anchor="middle" font-size="17" font-weight="800" fill="#1f2937">QRS</text><rect x="459" y="20" width="109" height="230" rx="10" fill="#bbf7d0" opacity=".75"/><text x="514" y="44" text-anchor="middle" font-size="17" font-weight="800" fill="#1f2937">ST 部分</text><rect x="568" y="20" width="192" height="230" rx="10" fill="#bfdbfe" opacity=".75"/><text x="664" y="44" text-anchor="middle" font-size="17" font-weight="800" fill="#1f2937">T 波</text><rect x="792" y="20" width="64" height="230" rx="10" fill="#e9d5ff" opacity=".75"/><text x="824" y="44" text-anchor="middle" font-size="17" font-weight="800" fill="#1f2937">U 波</text><path d="M 0 200 L 104.0 200 C 128.0 166 208.0 166 232.0 200 L 360.0 200 L 379.20000000000005 222 L 411.20000000000005 50 L 443.20000000000005 236 L 459.20000000000005 200 L 568.0 200 C 616.0 130 712.0 130 760.0 200 L 800.0 200 C 811.2 188 836.8000000000001 188 848.0 200 L 900 200" fill="none" stroke="#111827" stroke-width="4" stroke-linejoin="round"/><line x1="104" y1="280" x2="360" y2="280" stroke="#475569" stroke-width="2.5"/><line x1="104" y1="272" x2="104" y2="288" stroke="#475569" stroke-width="2.5"/><line x1="360" y1="272" x2="360" y2="288" stroke="#475569" stroke-width="2.5"/><text x="232" y="306" text-anchor="middle" font-size="16" font-weight="700" fill="#334155">PR 間隔</text><line x1="360" y1="280" x2="760" y2="280" stroke="#475569" stroke-width="2.5"/><line x1="360" y1="272" x2="360" y2="288" stroke="#475569" stroke-width="2.5"/><line x1="760" y1="272" x2="760" y2="288" stroke="#475569" stroke-width="2.5"/><text x="560" y="306" text-anchor="middle" font-size="16" font-weight="700" fill="#334155">QT 間隔</text></svg>
+<p class="mini-note" style="margin:4px 0 8px">図は II 誘導のような典型的な形です。PR・QRS・QT の長さはどの誘導でも同じ心臓の出来事なので共通ですが、波の形・向き・高さは誘導によって変わります（例：aVR では P 波も T 波も下向きが正常）。</p>
 <table class="lb-table">
-<tr><th>部分</th><th>心臓で起きていること</th><th>目安</th></tr>
-<tr><td><b>P 波</b></td><td>心房の興奮（心房が縮む合図）</td><td>小さくなだらかな山</td></tr>
-<tr><td><b>PR 間隔</b></td><td>心房の興奮が始まってから、房室結節を通って心室に届くまで</td><td>0.12〜0.20 秒</td></tr>
-<tr><td><b>QRS</b></td><td>心室の興奮（心室が縮む合図）</td><td>幅 0.12 秒未満</td></tr>
-<tr><td><b>ST 部分</b></td><td>心室全体が興奮し終わった時間。ふだんは平ら</td><td>心筋虚血で上昇・低下することがある</td></tr>
-<tr><td><b>T 波</b></td><td>心室の回復（再分極）</td><td>QRS と同じ向きが多い</td></tr>
-<tr><td><b>QT 間隔</b></td><td>心室の興奮から回復まで</td><td>心拍数で変わるので、補正した値（QTc）で見る</td></tr>
-<tr><td><b>U 波</b></td><td>T 波のあとの小さな波</td><td>見えないことも多い</td></tr>
+<tr><th>部分</th><th>心臓で起きていること</th><th>時間（どの誘導でも共通）</th><th>形（II 誘導の例）</th></tr>
+<tr><td><b>P 波</b></td><td>心房の興奮（心房が縮む合図）</td><td>—</td><td>小さくなだらかな上向きの山</td></tr>
+<tr><td><b>PR 間隔</b></td><td>心房の興奮が始まってから、房室結節を通って心室に届くまで</td><td>0.12〜0.20 秒</td><td>—</td></tr>
+<tr><td><b>QRS</b></td><td>心室の興奮（心室が縮む合図）</td><td>幅 0.12 秒未満</td><td>鋭く大きい、上向き中心の波</td></tr>
+<tr><td><b>ST 部分</b></td><td>心室全体が興奮し終わった時間</td><td>—</td><td>ふだんは平ら（心筋虚血で上昇・低下することがある）</td></tr>
+<tr><td><b>T 波</b></td><td>心室の回復（再分極）</td><td>—</td><td>上向きの山（QRS と同じ向き）</td></tr>
+<tr><td><b>QT 間隔</b></td><td>心室の興奮から回復まで</td><td>心拍数で変わるので、補正した値（QTc）で見る</td><td>—</td></tr>
+<tr><td><b>U 波</b></td><td>T 波のあとの小さな波</td><td>—</td><td>見えないことも多い</td></tr>
 </table>
 </div>
 <div class="card wide-card">
